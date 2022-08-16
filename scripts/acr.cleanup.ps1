@@ -1,0 +1,1 @@
+# This script check and removes the old docker images from the azure container registry
