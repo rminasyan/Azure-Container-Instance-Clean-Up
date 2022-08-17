@@ -4,3 +4,4 @@
 [CmdletBinding()]
 Param(
     # Define ACR Name
+    [Parameter (Mandatory = $true)]
