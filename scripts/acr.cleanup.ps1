@@ -5,3 +5,4 @@
 Param(
     # Define ACR Name
     [Parameter (Mandatory = $true)]
+    [ValidateNotNullOrEmpty()]
