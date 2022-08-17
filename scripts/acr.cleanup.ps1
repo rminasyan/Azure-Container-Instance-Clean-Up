@@ -2,3 +2,5 @@
 # WARNING: this script will delete all image tags within a repository that share the same manifest
 
 [CmdletBinding()]
+Param(
+    # Define ACR Name
