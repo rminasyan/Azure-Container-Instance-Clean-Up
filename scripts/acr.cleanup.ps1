@@ -10,3 +10,4 @@ Param(
 
     # Define Azure Subscription Name
     [Parameter (Mandatory = $false)]
+    [ValidateNotNullOrEmpty()]
