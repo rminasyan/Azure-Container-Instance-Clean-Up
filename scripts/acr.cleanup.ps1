@@ -7,3 +7,5 @@ Param(
     [Parameter (Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
     [String] $AzureRegistryName,
+
+    # Define Azure Subscription Name
