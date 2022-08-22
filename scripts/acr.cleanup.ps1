@@ -9,3 +9,4 @@ Param(
     [String] $AzureRegistryName,
 
     # Define Azure Subscription Name
+    [Parameter (Mandatory = $false)]
