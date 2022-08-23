@@ -16,3 +16,4 @@ Param(
     # Number of images to retain per respository
     [Parameter (Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
+    [Int] $ImagestoKeep,
