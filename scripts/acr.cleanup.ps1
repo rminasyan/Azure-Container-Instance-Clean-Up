@@ -12,3 +12,5 @@ Param(
     [Parameter (Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
     [String] $SubscriptionName,
+  
+    # Number of images to retain per respository
