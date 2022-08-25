@@ -21,3 +21,4 @@ Param(
     # Enable deletion or just run in scan mode
     [Parameter (Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
+    [String] $EnableDelete = "yes",
