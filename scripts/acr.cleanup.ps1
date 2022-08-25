@@ -17,3 +17,5 @@ Param(
     [Parameter (Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
     [Int] $ImagestoKeep,
+
+    # Enable deletion or just run in scan mode
