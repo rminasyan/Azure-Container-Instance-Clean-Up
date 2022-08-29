@@ -30,3 +30,5 @@ Param(
 )
 
 $imagesDeleted = 0
+
+if ($SubscriptionName) {
