@@ -28,3 +28,5 @@ Param(
     [ValidateNotNullOrEmpty()]
     [String] $Repository
 )
+
+$imagesDeleted = 0
