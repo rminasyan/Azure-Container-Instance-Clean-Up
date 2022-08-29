@@ -26,3 +26,5 @@ Param(
     # Specify repository to cleanup (if not specified will default to all repositories within the registry)
     [Parameter (Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
+    [String] $Repository
+)
