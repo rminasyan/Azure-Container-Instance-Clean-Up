@@ -33,3 +33,5 @@ $imagesDeleted = 0
 
 if ($SubscriptionName) {
     Write-Host "Setting subscription to: $SubscriptionName"
+    az account set --subscription $SubscriptionName
+}
