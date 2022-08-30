@@ -32,3 +32,4 @@ Param(
 $imagesDeleted = 0
 
 if ($SubscriptionName) {
+    Write-Host "Setting subscription to: $SubscriptionName"
