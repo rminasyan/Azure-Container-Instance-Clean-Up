@@ -39,3 +39,5 @@ if ($SubscriptionName) {
 if ($Repository) {
     $RepoList = @("", "", $Repository)
 }
+else {
+    Write-Host "Getting list of all repositories in container registry: $AzureRegistryName"
