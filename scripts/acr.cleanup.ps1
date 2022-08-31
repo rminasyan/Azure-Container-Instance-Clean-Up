@@ -37,3 +37,5 @@ if ($SubscriptionName) {
 }
 
 if ($Repository) {
+    $RepoList = @("", "", $Repository)
+}
