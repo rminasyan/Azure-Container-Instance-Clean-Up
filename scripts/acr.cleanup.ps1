@@ -43,3 +43,5 @@ else {
     Write-Host "Getting list of all repositories in container registry: $AzureRegistryName"
     $RepoList = az acr repository list --name $AzureRegistryName --output table
 }
+
+for ($index = 2; $index -lt $RepoList.length; $index++) {
