@@ -45,3 +45,4 @@ else {
 }
 
 for ($index = 2; $index -lt $RepoList.length; $index++) {
+    $RepositoryName = $RepoList[$index]
