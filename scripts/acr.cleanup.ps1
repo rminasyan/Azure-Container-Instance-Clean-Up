@@ -49,3 +49,4 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
 
     write-host ""
     Write-Host "Checking repository: $RepositoryName"
+    $RepositoryTags = az acr repository show-tags --name $AzureRegistryName --repository $RepositoryName --output tsv --orderby time_desc
