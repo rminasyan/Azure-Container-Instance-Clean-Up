@@ -54,3 +54,4 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
     if($RepositoryTags -is [Object[]])
     {
         if ($RepositoryTags.length -gt $ImagestoKeep) {
+            write-host "Deleting images..."
