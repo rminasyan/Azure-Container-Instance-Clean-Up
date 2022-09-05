@@ -52,3 +52,5 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
     $RepositoryTags = az acr repository show-tags --name $AzureRegistryName --repository $RepositoryName --output tsv --orderby time_desc
     write-host "# Total images:"$RepositoryTags.Count" # Images to keep:"$ImagestoKeep
     if($RepositoryTags -is [Object[]])
+    {
+        if ($RepositoryTags.length -gt $ImagestoKeep) {
