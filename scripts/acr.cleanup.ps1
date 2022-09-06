@@ -62,3 +62,9 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
                     write-host "deleting:"$ImageName
                     az acr repository delete --name $AzureRegistryName --image $ImageName --yes 
                 }
+                else {
+                    write-host "dummy delete:"$ImageName
+                }
+            }
+        }
+    }
