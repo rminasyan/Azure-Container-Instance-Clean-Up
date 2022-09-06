@@ -60,3 +60,5 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
                 $imagesDeleted++
                 if ($EnableDelete -eq "yes") {
                     write-host "deleting:"$ImageName
+                    az acr repository delete --name $AzureRegistryName --image $ImageName --yes 
+                }
