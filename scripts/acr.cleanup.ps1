@@ -59,3 +59,4 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
                 $ImageName = $RepositoryName + ":" + $RepositoryTags[$item]
                 $imagesDeleted++
                 if ($EnableDelete -eq "yes") {
+                    write-host "deleting:"$ImageName
