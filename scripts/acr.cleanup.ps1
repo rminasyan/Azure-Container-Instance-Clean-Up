@@ -58,3 +58,4 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
             for ($item = $ImagestoKeep; $item -lt $RepositoryTags.length; $item++) {
                 $ImageName = $RepositoryName + ":" + $RepositoryTags[$item]
                 $imagesDeleted++
+                if ($EnableDelete -eq "yes") {
