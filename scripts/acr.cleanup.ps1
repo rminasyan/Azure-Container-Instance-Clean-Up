@@ -74,3 +74,4 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
 }
 
 write-host ""
+Write-Host "ACR cleanup completed"
