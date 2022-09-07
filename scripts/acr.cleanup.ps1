@@ -72,3 +72,5 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
         write-host "No images to delete."
     }
 }
+
+write-host ""
