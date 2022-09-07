@@ -68,3 +68,7 @@ for ($index = 2; $index -lt $RepoList.length; $index++) {
             }
         }
     }
+    else {
+        write-host "No images to delete."
+    }
+}
