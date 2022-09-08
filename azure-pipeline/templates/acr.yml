@@ -2,3 +2,6 @@ parameters:
 - name: AzureRegistryName
   displayName: Azure Registry Name
   type: string
+- name: SubscriptionName
+  displayName: Subscription Name
+  type: string
