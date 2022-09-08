@@ -1,0 +1,4 @@
+parameters:
+- name: AzureRegistryName
+  displayName: Azure Registry Name
+  type: string
