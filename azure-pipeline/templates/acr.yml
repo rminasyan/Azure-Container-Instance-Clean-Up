@@ -15,3 +15,5 @@ jobs:
       vmImage: 'windows-latest'
     steps:
     - checkout: self
+
+    - task: AzureCLI@2
