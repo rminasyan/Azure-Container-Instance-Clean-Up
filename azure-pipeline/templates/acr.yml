@@ -8,3 +8,6 @@ parameters:
 - name: ImagestoKeep
   displayName: Images to keep
   type: string
+
+jobs: 
+  - job: 'clean_container_registry'
