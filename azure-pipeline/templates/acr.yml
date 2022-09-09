@@ -13,3 +13,5 @@ jobs:
   - job: 'clean_container_registry'
     pool: 
       vmImage: 'windows-latest'
+    steps:
+    - checkout: self
