@@ -21,3 +21,4 @@ jobs:
         azureSubscription: ${{ parameters.SubscriptionName }}
         scriptType: 'ps'
         scriptLocation: 'scriptPath'
+        scriptPath: '$(Pipeline.Workspace)/s/scripts/acr.cleanup.ps1'
