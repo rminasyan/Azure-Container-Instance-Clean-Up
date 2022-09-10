@@ -19,3 +19,5 @@ jobs:
     - task: AzureCLI@2
       inputs:
         azureSubscription: ${{ parameters.SubscriptionName }}
+        scriptType: 'ps'
+        scriptLocation: 'scriptPath'
