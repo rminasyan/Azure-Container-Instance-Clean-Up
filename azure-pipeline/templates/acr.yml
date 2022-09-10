@@ -17,3 +17,5 @@ jobs:
     - checkout: self
 
     - task: AzureCLI@2
+      inputs:
+        azureSubscription: ${{ parameters.SubscriptionName }}
