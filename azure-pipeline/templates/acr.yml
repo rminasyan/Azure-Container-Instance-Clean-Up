@@ -22,3 +22,4 @@ jobs:
         scriptType: 'ps'
         scriptLocation: 'scriptPath'
         scriptPath: '$(Pipeline.Workspace)/s/scripts/acr.cleanup.ps1'
+        arguments: -AzureRegistryName ${{ parameters.AzureRegistryName }} -ImagestoKeep ${{ parameters.ImagestoKeep }}
