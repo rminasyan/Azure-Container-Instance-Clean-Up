@@ -3,3 +3,4 @@ jobs:
     parameters:
       AzureRegistryName: exampleakscr
       SubscriptionName: "YOUR Azure Subscription"
+      ImagestoKeep: 3
