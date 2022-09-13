@@ -1,2 +1,4 @@
 jobs:
   - template: ../templates/acr.yml
+    parameters:
+      AzureRegistryName: exampleakscr
