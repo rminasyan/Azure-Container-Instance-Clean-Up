@@ -2,3 +2,4 @@ jobs:
   - template: ../templates/acr.yml
     parameters:
       AzureRegistryName: exampleakscr
+      SubscriptionName: "YOUR Azure Subscription"
