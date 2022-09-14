@@ -8,3 +8,8 @@
 #   always: true
 
 stages:
+
+  - stage: Example_Stage
+    displayName: Example_Stage
+    jobs:
+      - template: stages/example.stage.yml
